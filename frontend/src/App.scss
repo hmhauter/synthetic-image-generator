@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #001965;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #FCF2F5;
+}
+
+
+.App-header-small {
+  background-color: #001965;
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: #FCF2F5;
+}
+.App-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.App-shop-box {
+  min-width: 120;
+}
+.App-shop-autocomplete.Mui-focused{
+  color: #F06434;
+}
+
+.App-location-dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-save-button {
+  border: 1px solid #001965;
+  color: #001965;
+  background-color: #F06434;
+}
+
+.App-container-label {
+  margin: 10px auto;
+  margin-left: 10px;
+}
+
+.App-container-textfield {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-width: 120;
+}
+
+
+.Homepage-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}

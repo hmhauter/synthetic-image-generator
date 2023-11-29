@@ -2,9 +2,19 @@
 __pycache__/
 *.py[cod]
 *$py.class
+¨
+node_modules
 
 # C extensions
 *.so
+*.pth
+*.jpg
+*.png
+**/*.jpg
+**/*.png
+*.pdf
+
+*.zip
 
 # Distribution / packaging
 .Python
